@@ -1,0 +1,28 @@
+{
+    "version": 1.1,
+    "tags": [
+        {
+            "name": "dialog",
+            "attributes": [
+                {
+                    "name": "closedby",
+                    "description": "Specifies the types of user actions that can be used to close the dialog element.",
+                    "values": [
+                        {
+                            "name": "any",
+                            "description": "Closes via Escape key or clicking outside (light dismiss)."
+                        },
+                        {
+                            "name": "closerequest",
+                            "description": "Closes via Escape key or platform close request, but not outside clicks."
+                        },
+                        {
+                            "name": "none",
+                            "description": "Does not close automatically via user actions."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

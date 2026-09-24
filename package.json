@@ -1,0 +1,23 @@
+{
+    "name": "dialog-closedby-hint",
+    "displayName": "Dialog Closedby Attribute Hint",
+    "description": "Adds HTML IntelliSense and validation hints for the <dialog> closedby attribute.",
+    "version": "1.0.0",
+    "publisher": "Zap-09",
+    "icon": "src/icon.png",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Snippets",
+        "Other"
+    ],
+    "repository": "https://github.com/Zap-09/dialog-closedby-hint",
+    "contributes": {
+        "html": {
+            "customData": [
+                "./src/dialog.html-data.json"
+            ]
+        }
+    }
+}
